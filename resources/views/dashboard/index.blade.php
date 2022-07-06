@@ -45,5 +45,13 @@
             </div>
         </div>
     </a>
+    <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Funcionarios Orçados</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
 </div>
 </x-layout>

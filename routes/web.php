@@ -43,4 +43,8 @@ Route::patch('/tribo/update/{id}', [TribosController::class, 'update']);
 Route::delete('/tribo/delete/{id}', [TribosController::class, 'destroy']);
 
 Route::get('/funcionarios', [FuncionariosController::class, 'index']);
-Route::get('/create/funcionario', [FuncionariosController::class, 'create']);
+Route::get('/funcionario/create', [FuncionariosController::class, 'create']);
+Route::post('/funcionario/salvar', [FuncionariosController::class, 'story']);
+Route::get('/funcionario/edit/{id}', [FuncionariosController::class, 'edit']);
+Route::patch('/funcionario/update/{id}', [FuncionariosController::class, 'update']);
+Route::delete('/funcionario/delete/{id}', [FuncionariosController::class, 'destroy']);

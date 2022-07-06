@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome', 128);
             $table->string('cpf', 128);
-            $table->string('tecnologia', 255);
+            $table->decimal('valorHora', $precision = 8, $scale = 2);
             $table->string('funcao', 255);
             $table->timestamps();
         });
